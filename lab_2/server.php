@@ -9,8 +9,10 @@ require_once "/home/oleksandr_hrechenko/PhpstormProjects/lab_2/vendor/autoload.p
 
 use MongoDB\Client;
 
+$user = '';
+$password = '';
 
-$client = new \MongoDB\Client("mongodb+srv://alex:alex281101@cluster0.gebcx.mongodb.net/?ssl=true&ssl_cert_reqs=CERT_NONE");
+$client = new \MongoDB\Client("mongodb+srv://$user:$password@cluster0.gebcx.mongodb.net/?ssl=true&ssl_cert_reqs=CERT_NONE");
 $db = $client->nure->test;
 //var_dump($db);
 
