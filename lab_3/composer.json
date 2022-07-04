@@ -1,0 +1,9 @@
+{
+  "require": {
+    "mongodb/mongodb": "^1.12",
+    "jenssegers/mongodb": "^3.9",
+    "ext-mongodb": "*",
+      "ext-json": "*",
+    "ext-simplexml": "*"
+  }
+}
