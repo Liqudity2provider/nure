@@ -5,7 +5,7 @@ require_once "/home/oleksandr_hrechenko/PhpstormProjects/lab_2/vendor/autoload.p
 use MongoDB\Client;
 
 
-$client = new \MongoDB\Client("");
+$client = new \MongoDB\Client("mongodb+srv://alex:4yw22xfQgs7DDGQ@cluster0.gebcx.mongodb.net/?ssl=true&ssl_cert_reqs=CERT_NONE");
 $db = $client->nure->test;
 
 
